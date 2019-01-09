@@ -18,7 +18,7 @@ public class Runner {
         SortingUtil.printArray(randIntArr);
         int[] afterArray = randIntArr;
 
-        System.out.println("Time Taken: " + time);
+        System.out.println("Time Taken: " + time + "pounds of minutes");
 
         if (!SortingUtil.isSorted(randIntArr) || !SortingUtil.checkSum(beforeArray, afterArray)) {
             System.out.println("This sorter sux :/");
